@@ -18,11 +18,6 @@ public class MetaData implements Serializable {
 	ArrayList<Class> providers;
 	ArrayList<Class> clients;
 
-	public MetaData()
-	{
-		//
-	}
-
 	public MetaData(Class cl)
 	{
 		classType = cl;
